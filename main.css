@@ -1,0 +1,28 @@
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+.div{
+       max-width: 400px;
+       height: 400px;
+       display: flex;
+       align-items: center;
+        
+}
+.div>img{
+    filter: saturate(0%);
+    width: 10%;
+    border: 2px solid blue;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease .4s;
+    cursor: pointer;
+}
+.div>img:hover{
+    filter: saturate(100%);
+    width: 100%;
+}
